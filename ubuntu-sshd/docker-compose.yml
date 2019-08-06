@@ -1,0 +1,14 @@
+version: "3.1"
+
+services:
+  ubuntu-1:
+    image: rastasheep/ubuntu-sshd
+    restart: always
+    ports:
+      - "8000:22"
+
+  ubuntu-2:
+    image: rastasheep/ubuntu-sshd
+    restart: always
+    ports:
+      - "8001:22"

@@ -1,0 +1,5 @@
+- hosts: ubuntu
+  gather_facts: True  # connect to the managed host, run a script that collects a bunch of data, then it will populate the hostvars.
+  tasks:
+    - debug:
+        var: hostvars[inventory_hostname]
