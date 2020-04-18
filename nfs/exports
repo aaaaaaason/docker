@@ -1,0 +1,2 @@
+/nfsshare 192.168.0.0/255.255.255.0(rw,async,fsid=0,insecure)
+/nfsshare 127.0.0.1(rw,async,fsid=0,insecure)
